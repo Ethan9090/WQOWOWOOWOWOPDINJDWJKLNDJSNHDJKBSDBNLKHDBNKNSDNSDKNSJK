@@ -15,6 +15,13 @@ function preload(){
 
 }
 
+function playSound(){
+
+    Msound1 = loadSound("mysong.mp3");
+    Msound2 = loadSound("mysong2.mp3");
+
+}
+
 function setup(){
 
     canvas = createCanvas(500,500);
