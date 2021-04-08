@@ -17,8 +17,8 @@ function preload(){
 
 function playSound(){
 
-    Msound1 = loadSound("mysong.mp3");
-    Msound2 = loadSound("mysong2.mp3");
+    Msound1.play()
+    Msound2.play()
 
 }
 
